@@ -1,5 +1,5 @@
 //
-//  UIViewController+Extensions.swift.swift
+//  UIViewController+Extensions.swift
 //  halisaha-ios
 //
 //  Created by Bedirhan Turhan on 28.04.2024.

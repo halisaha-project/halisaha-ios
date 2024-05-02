@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE3D0DC22BE26CC400B59BD7 /* ResetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3D0DC02BE26CC400B59BD7 /* ResetPasswordVC.swift */; };
+		FE3D0DC32BE26CC400B59BD7 /* ResetPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE3D0DC12BE26CC400B59BD7 /* ResetPasswordVC.xib */; };
 		FEBF05C12BDE57D600BA933E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBF05C02BDE57D600BA933E /* AppDelegate.swift */; };
 		FEBF05CA2BDE57DA00BA933E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEBF05C92BDE57DA00BA933E /* Assets.xcassets */; };
 		FEBF05CD2BDE57DA00BA933E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEBF05CB2BDE57DA00BA933E /* LaunchScreen.storyboard */; };
@@ -17,7 +19,17 @@
 		FEBF05F82BDE75E500BA933E /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEBF05F62BDE75E500BA933E /* LoginVC.xib */; };
 		FEBF05FC2BDE75FB00BA933E /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBF05FA2BDE75FB00BA933E /* RegisterVC.swift */; };
 		FEBF05FD2BDE75FB00BA933E /* RegisterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEBF05FB2BDE75FB00BA933E /* RegisterVC.xib */; };
-		FEBF06012BDE78D800BA933E /* UIViewController+Extensions.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBF06002BDE78D800BA933E /* UIViewController+Extensions.swift.swift */; };
+		FEBF06012BDE78D800BA933E /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBF06002BDE78D800BA933E /* UIViewController+Extensions.swift */; };
+		FEBF06052BDECB8300BA933E /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBF06032BDECB8300BA933E /* AuthVC.swift */; };
+		FEBF06062BDECB8300BA933E /* AuthVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEBF06042BDECB8300BA933E /* AuthVC.xib */; };
+		FEBF06082BDECBD300BA933E /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBF06072BDECBD300BA933E /* UIColor+Extensions.swift */; };
+		FEBF060A2BDED1CE00BA933E /* CGColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBF06092BDED1CE00BA933E /* CGColor+Extensions.swift */; };
+		FEBF060C2BDED4BB00BA933E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEBF060B2BDED4BB00BA933E /* Colors.xcassets */; };
+		FEBF060E2BDEE3DF00BA933E /* UIView+Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBF060D2BDEE3DF00BA933E /* UIView+Layer.swift */; };
+		FEBF06102BDEEE7300BA933E /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBF060F2BDEEE7300BA933E /* UIView+Extensions.swift */; };
+		FEBF06122BDEEEFB00BA933E /* CALayer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBF06112BDEEEFB00BA933E /* CALayer+Extensions.swift */; };
+		FEE8E8632BE3A4C1007C31CA /* OtpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE8E8612BE3A4C1007C31CA /* OtpVC.swift */; };
+		FEE8E8642BE3A4C1007C31CA /* OtpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEE8E8622BE3A4C1007C31CA /* OtpVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE3D0DC02BE26CC400B59BD7 /* ResetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordVC.swift; sourceTree = "<group>"; };
+		FE3D0DC12BE26CC400B59BD7 /* ResetPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResetPasswordVC.xib; sourceTree = "<group>"; };
 		FEBF05BD2BDE57D600BA933E /* halisaha-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "halisaha-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEBF05C02BDE57D600BA933E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEBF05C92BDE57DA00BA933E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,7 +66,17 @@
 		FEBF05F62BDE75E500BA933E /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
 		FEBF05FA2BDE75FB00BA933E /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		FEBF05FB2BDE75FB00BA933E /* RegisterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterVC.xib; sourceTree = "<group>"; };
-		FEBF06002BDE78D800BA933E /* UIViewController+Extensions.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift.swift"; sourceTree = "<group>"; };
+		FEBF06002BDE78D800BA933E /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		FEBF06032BDECB8300BA933E /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		FEBF06042BDECB8300BA933E /* AuthVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthVC.xib; sourceTree = "<group>"; };
+		FEBF06072BDECBD300BA933E /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		FEBF06092BDED1CE00BA933E /* CGColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGColor+Extensions.swift"; sourceTree = "<group>"; };
+		FEBF060B2BDED4BB00BA933E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		FEBF060D2BDEE3DF00BA933E /* UIView+Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layer.swift"; sourceTree = "<group>"; };
+		FEBF060F2BDEEE7300BA933E /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		FEBF06112BDEEEFB00BA933E /* CALayer+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Extensions.swift"; sourceTree = "<group>"; };
+		FEE8E8612BE3A4C1007C31CA /* OtpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpVC.swift; sourceTree = "<group>"; };
+		FEE8E8622BE3A4C1007C31CA /* OtpVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OtpVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +104,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE3D0DBF2BE26C8100B59BD7 /* ResetPassword */ = {
+			isa = PBXGroup;
+			children = (
+				FE3D0DC02BE26CC400B59BD7 /* ResetPasswordVC.swift */,
+				FE3D0DC12BE26CC400B59BD7 /* ResetPasswordVC.xib */,
+			);
+			path = ResetPassword;
+			sourceTree = "<group>";
+		};
 		FEBF05B42BDE57D600BA933E = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +164,7 @@
 		FEBF05F02BDE5AE200BA933E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FEBF060B2BDED4BB00BA933E /* Colors.xcassets */,
 				FEBF05C92BDE57DA00BA933E /* Assets.xcassets */,
 				FEBF05CB2BDE57DA00BA933E /* LaunchScreen.storyboard */,
 				FEBF05CE2BDE57DA00BA933E /* Info.plist */,
@@ -150,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				FEBF05F32BDE75C100BA933E /* Auth */,
+				FEE8E85E2BE3A458007C31CA /* Other */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -157,8 +192,10 @@
 		FEBF05F32BDE75C100BA933E /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				FEBF06022BDECB6E00BA933E /* Main */,
 				FEBF05F42BDE75C900BA933E /* Login */,
 				FEBF05F92BDE75E900BA933E /* Register */,
+				FE3D0DBF2BE26C8100B59BD7 /* ResetPassword */,
 			);
 			path = Auth;
 			sourceTree = "<group>";
@@ -192,9 +229,40 @@
 		FEBF05FF2BDE788D00BA933E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				FEBF06002BDE78D800BA933E /* UIViewController+Extensions.swift.swift */,
+				FEBF06002BDE78D800BA933E /* UIViewController+Extensions.swift */,
+				FEBF06072BDECBD300BA933E /* UIColor+Extensions.swift */,
+				FEBF06092BDED1CE00BA933E /* CGColor+Extensions.swift */,
+				FEBF060D2BDEE3DF00BA933E /* UIView+Layer.swift */,
+				FEBF060F2BDEEE7300BA933E /* UIView+Extensions.swift */,
+				FEBF06112BDEEEFB00BA933E /* CALayer+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FEBF06022BDECB6E00BA933E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FEBF06032BDECB8300BA933E /* AuthVC.swift */,
+				FEBF06042BDECB8300BA933E /* AuthVC.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FEE8E85E2BE3A458007C31CA /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FEE8E85F2BE3A46A007C31CA /* Otp */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FEE8E85F2BE3A46A007C31CA /* Otp */ = {
+			isa = PBXGroup;
+			children = (
+				FEE8E8612BE3A4C1007C31CA /* OtpVC.swift */,
+				FEE8E8622BE3A4C1007C31CA /* OtpVC.xib */,
+			);
+			path = Otp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,9 +369,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE3D0DC32BE26CC400B59BD7 /* ResetPasswordVC.xib in Resources */,
+				FEBF06062BDECB8300BA933E /* AuthVC.xib in Resources */,
 				FEBF05F82BDE75E500BA933E /* LoginVC.xib in Resources */,
 				FEBF05FD2BDE75FB00BA933E /* RegisterVC.xib in Resources */,
+				FEBF060C2BDED4BB00BA933E /* Colors.xcassets in Resources */,
 				FEBF05CD2BDE57DA00BA933E /* LaunchScreen.storyboard in Resources */,
+				FEE8E8642BE3A4C1007C31CA /* OtpVC.xib in Resources */,
 				FEBF05CA2BDE57DA00BA933E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,9 +401,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEBF06052BDECB8300BA933E /* AuthVC.swift in Sources */,
 				FEBF05C12BDE57D600BA933E /* AppDelegate.swift in Sources */,
 				FEBF05FC2BDE75FB00BA933E /* RegisterVC.swift in Sources */,
-				FEBF06012BDE78D800BA933E /* UIViewController+Extensions.swift.swift in Sources */,
+				FEBF06102BDEEE7300BA933E /* UIView+Extensions.swift in Sources */,
+				FE3D0DC22BE26CC400B59BD7 /* ResetPasswordVC.swift in Sources */,
+				FEBF060A2BDED1CE00BA933E /* CGColor+Extensions.swift in Sources */,
+				FEE8E8632BE3A4C1007C31CA /* OtpVC.swift in Sources */,
+				FEBF06012BDE78D800BA933E /* UIViewController+Extensions.swift in Sources */,
+				FEBF06082BDECBD300BA933E /* UIColor+Extensions.swift in Sources */,
+				FEBF06122BDEEEFB00BA933E /* CALayer+Extensions.swift in Sources */,
+				FEBF060E2BDEE3DF00BA933E /* UIView+Layer.swift in Sources */,
 				FEBF05F72BDE75E500BA933E /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

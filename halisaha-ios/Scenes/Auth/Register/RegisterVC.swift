@@ -7,23 +7,36 @@
 
 import UIKit
 
-class RegisterVC: UIViewController {
-
+final class RegisterVC: UIViewController {
+    
+    @IBOutlet private weak var backgroundImageView: UIImageView!
+    @IBOutlet private weak var mailTextField: UITextField!
+    @IBOutlet private weak var passwordTextField: UITextField!
+    @IBOutlet private weak var confirmPasswordTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        setupBackgroundImageView()
+        setupTextFields()
     }
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    private func setupBackgroundImageView() {
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.frame = CGRect(x: 0, y: backgroundImageView.bounds.height * 0.5, width: backgroundImageView.bounds.width, height: backgroundImageView.bounds.height * 0.5)
+        gradientLayer.colors = [UIColor.clear.cgColor, UIColor.black.cgColor]
+        gradientLayer.locations = [0.7, 1.0] // Gradyanın netlik derecesini ayarlayabilirsiniz
+        backgroundImageView.layer.addSublayer(gradientLayer)
     }
-    */
-
+    
+    private func setupTextFields() {
+        mailTextField.attributedPlaceholder = NSAttributedString(
+            string: "Email",
+            attributes: [NSAttributedString.Key.foregroundColor: UIColor.primaryGray])
+        passwordTextField.attributedPlaceholder = NSAttributedString(
+            string: "Şifre",
+            attributes: [NSAttributedString.Key.foregroundColor: UIColor.primaryGray])
+        confirmPasswordTextField.attributedPlaceholder = NSAttributedString(
+            string: "Şifre Doğrulama",
+            attributes: [NSAttributedString.Key.foregroundColor: UIColor.primaryGray])
+    }
 }
