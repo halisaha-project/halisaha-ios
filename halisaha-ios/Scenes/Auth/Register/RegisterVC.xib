@@ -31,7 +31,7 @@
                     <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="epQ-GU-dGP">
-                            <rect key="frame" x="0.0" y="0.0" width="393" height="0.0"/>
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="515.33333333333337"/>
                             <subviews>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="17X-X5-4QN">
                                     <rect key="frame" x="24" y="36" width="345" height="55.333333333333343"/>
@@ -212,9 +212,10 @@
                                 </stackView>
                             </subviews>
                             <constraints>
+                                <constraint firstAttribute="bottom" secondItem="8eA-aS-SLF" secondAttribute="bottom" constant="36" id="2eT-Kq-JNn"/>
                                 <constraint firstItem="17X-X5-4QN" firstAttribute="leading" secondItem="epQ-GU-dGP" secondAttribute="leading" constant="24" id="5zA-XX-Gv0"/>
                                 <constraint firstItem="17T-nS-6jr" firstAttribute="top" secondItem="17X-X5-4QN" secondAttribute="bottom" constant="24" id="6Vu-QL-aB6"/>
-                                <constraint firstAttribute="height" priority="250" id="7Kz-cU-UsY"/>
+                                <constraint firstAttribute="height" priority="249" constant="1200" id="7Kz-cU-UsY"/>
                                 <constraint firstItem="8eA-aS-SLF" firstAttribute="top" secondItem="17T-nS-6jr" secondAttribute="bottom" constant="24" id="ATh-My-Sey"/>
                                 <constraint firstAttribute="trailing" secondItem="8eA-aS-SLF" secondAttribute="trailing" constant="24" id="Ld1-WY-dFL"/>
                                 <constraint firstItem="17T-nS-6jr" firstAttribute="leading" secondItem="epQ-GU-dGP" secondAttribute="leading" constant="24" id="Pbs-6T-Kaj"/>
@@ -230,7 +231,7 @@
                         <constraint firstItem="epQ-GU-dGP" firstAttribute="leading" secondItem="is3-ZU-C1K" secondAttribute="leading" id="TPK-2k-qxZ"/>
                         <constraint firstAttribute="trailing" secondItem="epQ-GU-dGP" secondAttribute="trailing" id="dKi-gl-3XI"/>
                         <constraint firstAttribute="bottom" secondItem="epQ-GU-dGP" secondAttribute="bottom" id="pKF-YN-fgp"/>
-                        <constraint firstItem="epQ-GU-dGP" firstAttribute="width" secondItem="is3-ZU-C1K" secondAttribute="width" constant="1000" id="yCW-8K-iNV"/>
+                        <constraint firstItem="epQ-GU-dGP" firstAttribute="width" secondItem="is3-ZU-C1K" secondAttribute="width" id="yCW-8K-iNV"/>
                     </constraints>
                 </scrollView>
             </subviews>

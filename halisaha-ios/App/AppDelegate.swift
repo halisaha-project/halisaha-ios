@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         _ application: UIApplication,
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
     ) -> Bool {
-        let vc = AuthVC.instanceFromNib()
+        let vc = TabBarVC.instanceFromNib()
         appNavigationController = UINavigationController(rootViewController: vc)
         
         window = UIWindow(frame: UIScreen.main.bounds)
@@ -26,6 +26,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window!.makeKeyAndVisible()
         return true
     }
-    
-    
 }

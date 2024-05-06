@@ -22,6 +22,9 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vardy_black" translatesAutoresizingMaskIntoConstraints="NO" id="OyB-tU-dYq">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                </imageView>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aPL-EY-EiY">
                     <rect key="frame" x="0.0" y="59" width="393" height="759"/>
                     <subviews>
@@ -238,9 +241,13 @@
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" name="primaryBlack"/>
             <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="OyB-tU-dYq" secondAttribute="trailing" id="0zl-fR-NDw"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="aPL-EY-EiY" secondAttribute="trailing" id="3VA-S3-9vK"/>
+                <constraint firstItem="OyB-tU-dYq" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="5vE-a9-cbx"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="aPL-EY-EiY" secondAttribute="bottom" id="B78-sr-a0o"/>
+                <constraint firstItem="OyB-tU-dYq" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" id="L3p-h4-ISq"/>
                 <constraint firstItem="aPL-EY-EiY" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="WYk-jb-K2g"/>
+                <constraint firstItem="OyB-tU-dYq" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Z3i-NH-Wdn"/>
                 <constraint firstItem="Swv-IL-eaW" firstAttribute="height" secondItem="fnl-2z-Ty3" secondAttribute="height" priority="250" id="ZIJ-7P-8Km"/>
                 <constraint firstItem="Swv-IL-eaW" firstAttribute="width" secondItem="fnl-2z-Ty3" secondAttribute="width" id="h15-iN-mkS"/>
                 <constraint firstItem="aPL-EY-EiY" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="ltd-td-wUo"/>
@@ -251,6 +258,7 @@
     <resources>
         <image name="appleLogo" width="30" height="30"/>
         <image name="googleLogo" width="30" height="30"/>
+        <image name="vardy_black" width="678" height="1472"/>
         <namedColor name="primaryBlack">
             <color red="0.067000001668930054" green="0.075000002980232239" blue="0.082000002264976501" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
