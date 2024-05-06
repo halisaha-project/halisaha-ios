@@ -7,8 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE16DE8E2BE3EE9F002D16AC /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE16DE8D2BE3EE9F002D16AC /* OTPTextField.swift */; };
+		FE16DE902BE3F2E3002D16AC /* UIStackView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE16DE8F2BE3F2E3002D16AC /* UIStackView+Extensions.swift */; };
+		FE16DE972BE55C59002D16AC /* ResetPasswordNewPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE16DE952BE55C58002D16AC /* ResetPasswordNewPasswordVC.swift */; };
+		FE16DE982BE55C59002D16AC /* ResetPasswordNewPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE16DE962BE55C58002D16AC /* ResetPasswordNewPasswordVC.xib */; };
+		FE16DEA02BE56432002D16AC /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE16DE9E2BE56431002D16AC /* TabBarVC.swift */; };
+		FE16DEA32BE64249002D16AC /* TabBarPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE16DEA22BE64249002D16AC /* TabBarPage.swift */; };
+		FE16DEA52BE642F8002D16AC /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE16DEA42BE642F8002D16AC /* String+Extensions.swift */; };
+		FE16DEAB2BE779A7002D16AC /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE16DEA92BE779A7002D16AC /* HomeVC.swift */; };
+		FE16DEAC2BE779A7002D16AC /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE16DEAA2BE779A7002D16AC /* HomeVC.xib */; };
+		FE16DEB02BE7B7EA002D16AC /* TeamsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE16DEAE2BE7B7EA002D16AC /* TeamsCollectionViewCell.swift */; };
+		FE16DEB12BE7B7EA002D16AC /* TeamsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE16DEAF2BE7B7EA002D16AC /* TeamsCollectionViewCell.xib */; };
 		FE3D0DC22BE26CC400B59BD7 /* ResetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3D0DC02BE26CC400B59BD7 /* ResetPasswordVC.swift */; };
 		FE3D0DC32BE26CC400B59BD7 /* ResetPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE3D0DC12BE26CC400B59BD7 /* ResetPasswordVC.xib */; };
+		FE4AE4562BE93A5500E1C211 /* TeamDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4AE4542BE93A5500E1C211 /* TeamDetailVC.swift */; };
+		FE4AE4572BE93A5500E1C211 /* TeamDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE4AE4552BE93A5500E1C211 /* TeamDetailVC.xib */; };
+		FE4AE45C2BE977F800E1C211 /* TeamDetailPlayerCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4AE45B2BE977F800E1C211 /* TeamDetailPlayerCellView.swift */; };
+		FE4AE4602BE9781D00E1C211 /* TeamDetailPlayerCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE4AE45F2BE9781D00E1C211 /* TeamDetailPlayerCellView.xib */; };
+		FE4AE4622BE9786A00E1C211 /* TeamDetailMatchCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4AE4612BE9786A00E1C211 /* TeamDetailMatchCellView.swift */; };
+		FE4AE4642BE9787400E1C211 /* TeamDetailMatchCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE4AE4632BE9787400E1C211 /* TeamDetailMatchCellView.xib */; };
 		FEBF05C12BDE57D600BA933E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBF05C02BDE57D600BA933E /* AppDelegate.swift */; };
 		FEBF05CA2BDE57DA00BA933E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEBF05C92BDE57DA00BA933E /* Assets.xcassets */; };
 		FEBF05CD2BDE57DA00BA933E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEBF05CB2BDE57DA00BA933E /* LaunchScreen.storyboard */; };
@@ -50,8 +67,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE16DE8D2BE3EE9F002D16AC /* OTPTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPTextField.swift; sourceTree = "<group>"; };
+		FE16DE8F2BE3F2E3002D16AC /* UIStackView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extensions.swift"; sourceTree = "<group>"; };
+		FE16DE952BE55C58002D16AC /* ResetPasswordNewPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordNewPasswordVC.swift; sourceTree = "<group>"; };
+		FE16DE962BE55C58002D16AC /* ResetPasswordNewPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResetPasswordNewPasswordVC.xib; sourceTree = "<group>"; };
+		FE16DE9E2BE56431002D16AC /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		FE16DEA22BE64249002D16AC /* TabBarPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarPage.swift; sourceTree = "<group>"; };
+		FE16DEA42BE642F8002D16AC /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		FE16DEA92BE779A7002D16AC /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		FE16DEAA2BE779A7002D16AC /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		FE16DEAE2BE7B7EA002D16AC /* TeamsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsCollectionViewCell.swift; sourceTree = "<group>"; };
+		FE16DEAF2BE7B7EA002D16AC /* TeamsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamsCollectionViewCell.xib; sourceTree = "<group>"; };
 		FE3D0DC02BE26CC400B59BD7 /* ResetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordVC.swift; sourceTree = "<group>"; };
 		FE3D0DC12BE26CC400B59BD7 /* ResetPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResetPasswordVC.xib; sourceTree = "<group>"; };
+		FE4AE4542BE93A5500E1C211 /* TeamDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailVC.swift; sourceTree = "<group>"; };
+		FE4AE4552BE93A5500E1C211 /* TeamDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamDetailVC.xib; sourceTree = "<group>"; };
+		FE4AE45B2BE977F800E1C211 /* TeamDetailPlayerCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailPlayerCellView.swift; sourceTree = "<group>"; };
+		FE4AE45F2BE9781D00E1C211 /* TeamDetailPlayerCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamDetailPlayerCellView.xib; sourceTree = "<group>"; };
+		FE4AE4612BE9786A00E1C211 /* TeamDetailMatchCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailMatchCellView.swift; sourceTree = "<group>"; };
+		FE4AE4632BE9787400E1C211 /* TeamDetailMatchCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamDetailMatchCellView.xib; sourceTree = "<group>"; };
 		FEBF05BD2BDE57D600BA933E /* halisaha-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "halisaha-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEBF05C02BDE57D600BA933E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEBF05C92BDE57DA00BA933E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -104,13 +138,111 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FE3D0DBF2BE26C8100B59BD7 /* ResetPassword */ = {
+		FE16DE8C2BE3EE68002D16AC /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				FE16DE8D2BE3EE9F002D16AC /* OTPTextField.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		FE16DE922BE55C0E002D16AC /* Main */ = {
 			isa = PBXGroup;
 			children = (
 				FE3D0DC02BE26CC400B59BD7 /* ResetPasswordVC.swift */,
 				FE3D0DC12BE26CC400B59BD7 /* ResetPasswordVC.xib */,
 			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FE16DE932BE55C19002D16AC /* NewPassword */ = {
+			isa = PBXGroup;
+			children = (
+				FE16DE952BE55C58002D16AC /* ResetPasswordNewPasswordVC.swift */,
+				FE16DE962BE55C58002D16AC /* ResetPasswordNewPasswordVC.xib */,
+			);
+			path = NewPassword;
+			sourceTree = "<group>";
+		};
+		FE16DE992BE5627F002D16AC /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				FE16DE9E2BE56431002D16AC /* TabBarVC.swift */,
+				FE16DEA22BE64249002D16AC /* TabBarPage.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		FE16DEA62BE77965002D16AC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FE16DEAD2BE7B7BD002D16AC /* CustomView */,
+				FE16DEA92BE779A7002D16AC /* HomeVC.swift */,
+				FE16DEAA2BE779A7002D16AC /* HomeVC.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FE16DEA72BE77969002D16AC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		FE16DEAD2BE7B7BD002D16AC /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				FE16DEAE2BE7B7EA002D16AC /* TeamsCollectionViewCell.swift */,
+				FE16DEAF2BE7B7EA002D16AC /* TeamsCollectionViewCell.xib */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		FE3D0DBF2BE26C8100B59BD7 /* ResetPassword */ = {
+			isa = PBXGroup;
+			children = (
+				FE16DE922BE55C0E002D16AC /* Main */,
+				FE16DE932BE55C19002D16AC /* NewPassword */,
+			);
 			path = ResetPassword;
+			sourceTree = "<group>";
+		};
+		FE4AE4522BE93A1C00E1C211 /* TeamDetail */ = {
+			isa = PBXGroup;
+			children = (
+				FE4AE4582BE9778500E1C211 /* CustomView */,
+				FE4AE4542BE93A5500E1C211 /* TeamDetailVC.swift */,
+				FE4AE4552BE93A5500E1C211 /* TeamDetailVC.xib */,
+			);
+			path = TeamDetail;
+			sourceTree = "<group>";
+		};
+		FE4AE4582BE9778500E1C211 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				FE4AE45A2BE977AE00E1C211 /* MatchCell */,
+				FE4AE4592BE977A800E1C211 /* PlayerCell */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		FE4AE4592BE977A800E1C211 /* PlayerCell */ = {
+			isa = PBXGroup;
+			children = (
+				FE4AE45B2BE977F800E1C211 /* TeamDetailPlayerCellView.swift */,
+				FE4AE45F2BE9781D00E1C211 /* TeamDetailPlayerCellView.xib */,
+			);
+			path = PlayerCell;
+			sourceTree = "<group>";
+		};
+		FE4AE45A2BE977AE00E1C211 /* MatchCell */ = {
+			isa = PBXGroup;
+			children = (
+				FE4AE4612BE9786A00E1C211 /* TeamDetailMatchCellView.swift */,
+				FE4AE4632BE9787400E1C211 /* TeamDetailMatchCellView.xib */,
+			);
+			path = MatchCell;
 			sourceTree = "<group>";
 		};
 		FEBF05B42BDE57D600BA933E = {
@@ -184,6 +316,10 @@
 			isa = PBXGroup;
 			children = (
 				FEBF05F32BDE75C100BA933E /* Auth */,
+				FE16DE992BE5627F002D16AC /* Tabbar */,
+				FE16DEA62BE77965002D16AC /* Home */,
+				FE16DEA72BE77969002D16AC /* Profile */,
+				FE4AE4522BE93A1C00E1C211 /* TeamDetail */,
 				FEE8E85E2BE3A458007C31CA /* Other */,
 			);
 			path = Scenes;
@@ -235,6 +371,8 @@
 				FEBF060D2BDEE3DF00BA933E /* UIView+Layer.swift */,
 				FEBF060F2BDEEE7300BA933E /* UIView+Extensions.swift */,
 				FEBF06112BDEEEFB00BA933E /* CALayer+Extensions.swift */,
+				FE16DE8F2BE3F2E3002D16AC /* UIStackView+Extensions.swift */,
+				FE16DEA42BE642F8002D16AC /* String+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -259,6 +397,7 @@
 		FEE8E85F2BE3A46A007C31CA /* Otp */ = {
 			isa = PBXGroup;
 			children = (
+				FE16DE8C2BE3EE68002D16AC /* CustomView */,
 				FEE8E8612BE3A4C1007C31CA /* OtpVC.swift */,
 				FEE8E8622BE3A4C1007C31CA /* OtpVC.xib */,
 			);
@@ -369,14 +508,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE4AE4572BE93A5500E1C211 /* TeamDetailVC.xib in Resources */,
 				FE3D0DC32BE26CC400B59BD7 /* ResetPasswordVC.xib in Resources */,
 				FEBF06062BDECB8300BA933E /* AuthVC.xib in Resources */,
+				FE16DEB12BE7B7EA002D16AC /* TeamsCollectionViewCell.xib in Resources */,
+				FE4AE4642BE9787400E1C211 /* TeamDetailMatchCellView.xib in Resources */,
 				FEBF05F82BDE75E500BA933E /* LoginVC.xib in Resources */,
 				FEBF05FD2BDE75FB00BA933E /* RegisterVC.xib in Resources */,
 				FEBF060C2BDED4BB00BA933E /* Colors.xcassets in Resources */,
 				FEBF05CD2BDE57DA00BA933E /* LaunchScreen.storyboard in Resources */,
 				FEE8E8642BE3A4C1007C31CA /* OtpVC.xib in Resources */,
+				FE16DEAC2BE779A7002D16AC /* HomeVC.xib in Resources */,
+				FE16DE982BE55C59002D16AC /* ResetPasswordNewPasswordVC.xib in Resources */,
 				FEBF05CA2BDE57DA00BA933E /* Assets.xcassets in Resources */,
+				FE4AE4602BE9781D00E1C211 /* TeamDetailPlayerCellView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,17 +546,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE16DE8E2BE3EE9F002D16AC /* OTPTextField.swift in Sources */,
+				FE16DE972BE55C59002D16AC /* ResetPasswordNewPasswordVC.swift in Sources */,
 				FEBF06052BDECB8300BA933E /* AuthVC.swift in Sources */,
 				FEBF05C12BDE57D600BA933E /* AppDelegate.swift in Sources */,
+				FE4AE4622BE9786A00E1C211 /* TeamDetailMatchCellView.swift in Sources */,
+				FE16DEA52BE642F8002D16AC /* String+Extensions.swift in Sources */,
 				FEBF05FC2BDE75FB00BA933E /* RegisterVC.swift in Sources */,
 				FEBF06102BDEEE7300BA933E /* UIView+Extensions.swift in Sources */,
+				FE16DEA32BE64249002D16AC /* TabBarPage.swift in Sources */,
 				FE3D0DC22BE26CC400B59BD7 /* ResetPasswordVC.swift in Sources */,
+				FE4AE45C2BE977F800E1C211 /* TeamDetailPlayerCellView.swift in Sources */,
+				FE16DEB02BE7B7EA002D16AC /* TeamsCollectionViewCell.swift in Sources */,
 				FEBF060A2BDED1CE00BA933E /* CGColor+Extensions.swift in Sources */,
 				FEE8E8632BE3A4C1007C31CA /* OtpVC.swift in Sources */,
 				FEBF06012BDE78D800BA933E /* UIViewController+Extensions.swift in Sources */,
+				FE4AE4562BE93A5500E1C211 /* TeamDetailVC.swift in Sources */,
 				FEBF06082BDECBD300BA933E /* UIColor+Extensions.swift in Sources */,
 				FEBF06122BDEEEFB00BA933E /* CALayer+Extensions.swift in Sources */,
+				FE16DE902BE3F2E3002D16AC /* UIStackView+Extensions.swift in Sources */,
 				FEBF060E2BDEE3DF00BA933E /* UIView+Layer.swift in Sources */,
+				FE16DEA02BE56432002D16AC /* TabBarVC.swift in Sources */,
+				FE16DEAB2BE779A7002D16AC /* HomeVC.swift in Sources */,
 				FEBF05F72BDE75E500BA933E /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
