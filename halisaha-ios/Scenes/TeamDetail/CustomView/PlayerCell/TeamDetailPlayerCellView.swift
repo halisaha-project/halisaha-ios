@@ -8,13 +8,35 @@
 import UIKit
 
 class TeamDetailPlayerCellView: UIView {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    @IBOutlet private var mainView: UIView!
+    @IBOutlet private weak var playerNumberLabel: UILabel!
+    @IBOutlet private weak var playerNameLabel: UILabel!
+    @IBOutlet private weak var playerScoreBackgroundView: UIView!
+    @IBOutlet private weak var playerScoreLabel: UILabel!
+    @IBOutlet private weak var playerPositionBackgroundView: UIView!
+    @IBOutlet private weak var playerPositionLabel: UILabel!
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        commonInit()
     }
-    */
 
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        commonInit()
+    }
+
+    private func commonInit() {
+        Bundle.main.loadNibNamed(TeamDetailPlayerCellView.className, owner: self)
+        addSubview(mainView)
+        mainView.frame = bounds
+        mainView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(didTapSelf))
+        self.addGestureRecognizer(tapRecognizer)
+    }
+    
+    @objc
+    private func didTapSelf() {
+        
+    }
 }

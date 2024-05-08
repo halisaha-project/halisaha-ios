@@ -96,7 +96,8 @@ extension HomeVC: UICollectionViewDelegate {
         _ collectionView: UICollectionView,
         didSelectItemAt indexPath: IndexPath
     ) {
-        print("Selected item at index: \(indexPath.item)")
+        let vc = TeamDetailVC.instanceFromNib()
+        appNavigationController.pushViewController(vc, animated: true)
     }
 }
 

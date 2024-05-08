@@ -9,21 +9,30 @@ import UIKit
 
 class TeamDetailVC: UIViewController {
 
+    @IBOutlet private weak var teamLogo: UIImageView!
+    @IBOutlet private weak var matchsStackView: UIStackView!
+    @IBOutlet private weak var matchsScrollView: UIScrollView!
+    @IBOutlet private weak var playersScrollView: UIScrollView!
+    @IBOutlet private weak var playersStackView: UIStackView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        updatePlayer()
     }
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func didTapAllMatchsButton(_ sender: Any) {
+        
     }
-    */
+}
 
+private extension TeamDetailVC {
+    
+    func updatePlayer() {
+        for i in 0...10 {
+            let playerCell = TeamDetailPlayerCellView()
+            playersStackView.addArrangedSubview(playerCell)
+            
+            let matchCell = TeamDetailMatchCellView()
+            matchsStackView.addArrangedSubview(matchCell)
+        }
+    }
 }
