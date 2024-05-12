@@ -99,7 +99,7 @@
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </view>
-                <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y5X-Nk-bQF">
+                <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y5X-Nk-bQF">
                     <rect key="frame" x="0.0" y="85" width="566" height="1"/>
                     <color key="backgroundColor" name="primaryGray"/>
                     <constraints>

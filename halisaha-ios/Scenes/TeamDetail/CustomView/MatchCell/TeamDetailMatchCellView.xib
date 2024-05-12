@@ -18,7 +18,7 @@
             <rect key="frame" x="0.0" y="0.0" width="528" height="98"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MDk-W3-8E0">
+                <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MDk-W3-8E0">
                     <rect key="frame" x="0.0" y="97" width="528" height="1"/>
                     <color key="backgroundColor" name="primaryGray"/>
                     <constraints>
@@ -93,6 +93,7 @@
                 <constraint firstAttribute="trailing" secondItem="MDk-W3-8E0" secondAttribute="trailing" id="hJY-zg-OrZ"/>
                 <constraint firstItem="5rm-dO-MdW" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="oAj-uh-yxq"/>
                 <constraint firstItem="5rm-dO-MdW" firstAttribute="top" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="top" constant="12" id="ux9-iK-Xwx"/>
+                <constraint firstItem="5rm-dO-MdW" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Wh8-gb-IBC" secondAttribute="trailing" constant="12" id="x8r-F5-Dn6"/>
                 <constraint firstItem="MDk-W3-8E0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="zSn-h1-V1U"/>
             </constraints>
             <nil key="simulatedTopBarMetrics"/>
