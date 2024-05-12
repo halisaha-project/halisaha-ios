@@ -18,6 +18,8 @@
 		FE16DEAC2BE779A7002D16AC /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE16DEAA2BE779A7002D16AC /* HomeVC.xib */; };
 		FE16DEB02BE7B7EA002D16AC /* TeamsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE16DEAE2BE7B7EA002D16AC /* TeamsCollectionViewCell.swift */; };
 		FE16DEB12BE7B7EA002D16AC /* TeamsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE16DEAF2BE7B7EA002D16AC /* TeamsCollectionViewCell.xib */; };
+		FE3793CB2BEBEE37002B7C18 /* TeamPlayerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3793C92BEBEE37002B7C18 /* TeamPlayerListVC.swift */; };
+		FE3793CC2BEBEE37002B7C18 /* TeamPlayerListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE3793CA2BEBEE37002B7C18 /* TeamPlayerListVC.xib */; };
 		FE3D0DC22BE26CC400B59BD7 /* ResetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3D0DC02BE26CC400B59BD7 /* ResetPasswordVC.swift */; };
 		FE3D0DC32BE26CC400B59BD7 /* ResetPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE3D0DC12BE26CC400B59BD7 /* ResetPasswordVC.xib */; };
 		FE4AE4562BE93A5500E1C211 /* TeamDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4AE4542BE93A5500E1C211 /* TeamDetailVC.swift */; };
@@ -26,6 +28,17 @@
 		FE4AE4602BE9781D00E1C211 /* TeamDetailPlayerCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE4AE45F2BE9781D00E1C211 /* TeamDetailPlayerCellView.xib */; };
 		FE4AE4622BE9786A00E1C211 /* TeamDetailMatchCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4AE4612BE9786A00E1C211 /* TeamDetailMatchCellView.swift */; };
 		FE4AE4642BE9787400E1C211 /* TeamDetailMatchCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE4AE4632BE9787400E1C211 /* TeamDetailMatchCellView.xib */; };
+		FE4D67FE2BF0D67C00504957 /* ManageTeamVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4D67FC2BF0D67C00504957 /* ManageTeamVC.swift */; };
+		FE4D67FF2BF0D67C00504957 /* ManageTeamVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE4D67FD2BF0D67C00504957 /* ManageTeamVC.xib */; };
+		FE4D68022BF0D9BB00504957 /* ManageTeamPlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4D68012BF0D9BB00504957 /* ManageTeamPlayerCell.swift */; };
+		FE4D68042BF0D9C400504957 /* ManageTeamPlayerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE4D68032BF0D9C400504957 /* ManageTeamPlayerCell.xib */; };
+		FE5CAFDE2BEEA57600646F66 /* TeamMatchsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5CAFDC2BEEA57600646F66 /* TeamMatchsListVC.swift */; };
+		FE5CAFDF2BEEA57600646F66 /* TeamMatchsListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE5CAFDD2BEEA57600646F66 /* TeamMatchsListVC.xib */; };
+		FE5CAFE32BEF853E00646F66 /* TeamPlayerDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5CAFE12BEF853E00646F66 /* TeamPlayerDetailVC.swift */; };
+		FE5CAFE42BEF853E00646F66 /* TeamPlayerDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE5CAFE22BEF853E00646F66 /* TeamPlayerDetailVC.xib */; };
+		FE5CAFE82BEFD16100646F66 /* MKMagneticProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5CAFE72BEFD16100646F66 /* MKMagneticProgress.swift */; };
+		FE5CAFEC2BEFFB3B00646F66 /* TeamMatchDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5CAFEA2BEFFB3B00646F66 /* TeamMatchDetailVC.swift */; };
+		FE5CAFED2BEFFB3B00646F66 /* TeamMatchDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE5CAFEB2BEFFB3B00646F66 /* TeamMatchDetailVC.xib */; };
 		FEBF05C12BDE57D600BA933E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBF05C02BDE57D600BA933E /* AppDelegate.swift */; };
 		FEBF05CA2BDE57DA00BA933E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEBF05C92BDE57DA00BA933E /* Assets.xcassets */; };
 		FEBF05CD2BDE57DA00BA933E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEBF05CB2BDE57DA00BA933E /* LaunchScreen.storyboard */; };
@@ -78,6 +91,8 @@
 		FE16DEAA2BE779A7002D16AC /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
 		FE16DEAE2BE7B7EA002D16AC /* TeamsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsCollectionViewCell.swift; sourceTree = "<group>"; };
 		FE16DEAF2BE7B7EA002D16AC /* TeamsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamsCollectionViewCell.xib; sourceTree = "<group>"; };
+		FE3793C92BEBEE37002B7C18 /* TeamPlayerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamPlayerListVC.swift; sourceTree = "<group>"; };
+		FE3793CA2BEBEE37002B7C18 /* TeamPlayerListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamPlayerListVC.xib; sourceTree = "<group>"; };
 		FE3D0DC02BE26CC400B59BD7 /* ResetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordVC.swift; sourceTree = "<group>"; };
 		FE3D0DC12BE26CC400B59BD7 /* ResetPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResetPasswordVC.xib; sourceTree = "<group>"; };
 		FE4AE4542BE93A5500E1C211 /* TeamDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailVC.swift; sourceTree = "<group>"; };
@@ -86,6 +101,17 @@
 		FE4AE45F2BE9781D00E1C211 /* TeamDetailPlayerCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamDetailPlayerCellView.xib; sourceTree = "<group>"; };
 		FE4AE4612BE9786A00E1C211 /* TeamDetailMatchCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailMatchCellView.swift; sourceTree = "<group>"; };
 		FE4AE4632BE9787400E1C211 /* TeamDetailMatchCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamDetailMatchCellView.xib; sourceTree = "<group>"; };
+		FE4D67FC2BF0D67C00504957 /* ManageTeamVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageTeamVC.swift; sourceTree = "<group>"; };
+		FE4D67FD2BF0D67C00504957 /* ManageTeamVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ManageTeamVC.xib; sourceTree = "<group>"; };
+		FE4D68012BF0D9BB00504957 /* ManageTeamPlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageTeamPlayerCell.swift; sourceTree = "<group>"; };
+		FE4D68032BF0D9C400504957 /* ManageTeamPlayerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ManageTeamPlayerCell.xib; sourceTree = "<group>"; };
+		FE5CAFDC2BEEA57600646F66 /* TeamMatchsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamMatchsListVC.swift; sourceTree = "<group>"; };
+		FE5CAFDD2BEEA57600646F66 /* TeamMatchsListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamMatchsListVC.xib; sourceTree = "<group>"; };
+		FE5CAFE12BEF853E00646F66 /* TeamPlayerDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamPlayerDetailVC.swift; sourceTree = "<group>"; };
+		FE5CAFE22BEF853E00646F66 /* TeamPlayerDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamPlayerDetailVC.xib; sourceTree = "<group>"; };
+		FE5CAFE72BEFD16100646F66 /* MKMagneticProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKMagneticProgress.swift; sourceTree = "<group>"; };
+		FE5CAFEA2BEFFB3B00646F66 /* TeamMatchDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamMatchDetailVC.swift; sourceTree = "<group>"; };
+		FE5CAFEB2BEFFB3B00646F66 /* TeamMatchDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamMatchDetailVC.xib; sourceTree = "<group>"; };
 		FEBF05BD2BDE57D600BA933E /* halisaha-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "halisaha-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEBF05C02BDE57D600BA933E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEBF05C92BDE57DA00BA933E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -199,6 +225,15 @@
 			path = CustomView;
 			sourceTree = "<group>";
 		};
+		FE3793C82BEBEE0F002B7C18 /* TeamPlayers */ = {
+			isa = PBXGroup;
+			children = (
+				FE3793C92BEBEE37002B7C18 /* TeamPlayerListVC.swift */,
+				FE3793CA2BEBEE37002B7C18 /* TeamPlayerListVC.xib */,
+			);
+			path = TeamPlayers;
+			sourceTree = "<group>";
+		};
 		FE3D0DBF2BE26C8100B59BD7 /* ResetPassword */ = {
 			isa = PBXGroup;
 			children = (
@@ -243,6 +278,69 @@
 				FE4AE4632BE9787400E1C211 /* TeamDetailMatchCellView.xib */,
 			);
 			path = MatchCell;
+			sourceTree = "<group>";
+		};
+		FE4D67FB2BF0D66100504957 /* ManageTeam */ = {
+			isa = PBXGroup;
+			children = (
+				FE4D68002BF0D8E300504957 /* CustomViews */,
+				FE4D67FC2BF0D67C00504957 /* ManageTeamVC.swift */,
+				FE4D67FD2BF0D67C00504957 /* ManageTeamVC.xib */,
+			);
+			path = ManageTeam;
+			sourceTree = "<group>";
+		};
+		FE4D68002BF0D8E300504957 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				FE4D68012BF0D9BB00504957 /* ManageTeamPlayerCell.swift */,
+				FE4D68032BF0D9C400504957 /* ManageTeamPlayerCell.xib */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		FE5CAFDB2BEEA55700646F66 /* TeamMatchs */ = {
+			isa = PBXGroup;
+			children = (
+				FE5CAFDC2BEEA57600646F66 /* TeamMatchsListVC.swift */,
+				FE5CAFDD2BEEA57600646F66 /* TeamMatchsListVC.xib */,
+			);
+			path = TeamMatchs;
+			sourceTree = "<group>";
+		};
+		FE5CAFE02BEF852700646F66 /* TeamPlayerDetail */ = {
+			isa = PBXGroup;
+			children = (
+				FE5CAFE12BEF853E00646F66 /* TeamPlayerDetailVC.swift */,
+				FE5CAFE22BEF853E00646F66 /* TeamPlayerDetailVC.xib */,
+			);
+			path = TeamPlayerDetail;
+			sourceTree = "<group>";
+		};
+		FE5CAFE52BEFD12F00646F66 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				FE5CAFE62BEFD13300646F66 /* MKMagneticProgress */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		FE5CAFE62BEFD13300646F66 /* MKMagneticProgress */ = {
+			isa = PBXGroup;
+			children = (
+				FE5CAFE72BEFD16100646F66 /* MKMagneticProgress.swift */,
+			);
+			path = MKMagneticProgress;
+			sourceTree = "<group>";
+		};
+		FE5CAFE92BEFFAC000646F66 /* TeamMatchDetail */ = {
+			isa = PBXGroup;
+			children = (
+				FE5CAFEA2BEFFB3B00646F66 /* TeamMatchDetailVC.swift */,
+				FE5CAFEB2BEFFB3B00646F66 /* TeamMatchDetailVC.xib */,
+			);
+			name = TeamMatchDetail;
+			path = TeamPlayerDetail/TeamMatchDetail;
 			sourceTree = "<group>";
 		};
 		FEBF05B42BDE57D600BA933E = {
@@ -320,6 +418,11 @@
 				FE16DEA62BE77965002D16AC /* Home */,
 				FE16DEA72BE77969002D16AC /* Profile */,
 				FE4AE4522BE93A1C00E1C211 /* TeamDetail */,
+				FE3793C82BEBEE0F002B7C18 /* TeamPlayers */,
+				FE5CAFDB2BEEA55700646F66 /* TeamMatchs */,
+				FE5CAFE02BEF852700646F66 /* TeamPlayerDetail */,
+				FE5CAFE92BEFFAC000646F66 /* TeamMatchDetail */,
+				FE4D67FB2BF0D66100504957 /* ManageTeam */,
 				FEE8E85E2BE3A458007C31CA /* Other */,
 			);
 			path = Scenes;
@@ -357,6 +460,7 @@
 		FEBF05FE2BDE787100BA933E /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				FE5CAFE52BEFD12F00646F66 /* CustomViews */,
 				FEBF05FF2BDE788D00BA933E /* Extensions */,
 			);
 			path = Helpers;
@@ -509,8 +613,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE4AE4572BE93A5500E1C211 /* TeamDetailVC.xib in Resources */,
+				FE5CAFDF2BEEA57600646F66 /* TeamMatchsListVC.xib in Resources */,
 				FE3D0DC32BE26CC400B59BD7 /* ResetPasswordVC.xib in Resources */,
 				FEBF06062BDECB8300BA933E /* AuthVC.xib in Resources */,
+				FE5CAFED2BEFFB3B00646F66 /* TeamMatchDetailVC.xib in Resources */,
+				FE5CAFE42BEF853E00646F66 /* TeamPlayerDetailVC.xib in Resources */,
+				FE4D68042BF0D9C400504957 /* ManageTeamPlayerCell.xib in Resources */,
+				FE4D67FF2BF0D67C00504957 /* ManageTeamVC.xib in Resources */,
 				FE16DEB12BE7B7EA002D16AC /* TeamsCollectionViewCell.xib in Resources */,
 				FE4AE4642BE9787400E1C211 /* TeamDetailMatchCellView.xib in Resources */,
 				FEBF05F82BDE75E500BA933E /* LoginVC.xib in Resources */,
@@ -522,6 +631,7 @@
 				FE16DE982BE55C59002D16AC /* ResetPasswordNewPasswordVC.xib in Resources */,
 				FEBF05CA2BDE57DA00BA933E /* Assets.xcassets in Resources */,
 				FE4AE4602BE9781D00E1C211 /* TeamDetailPlayerCellView.xib in Resources */,
+				FE3793CC2BEBEE37002B7C18 /* TeamPlayerListVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,6 +658,7 @@
 			files = (
 				FE16DE8E2BE3EE9F002D16AC /* OTPTextField.swift in Sources */,
 				FE16DE972BE55C59002D16AC /* ResetPasswordNewPasswordVC.swift in Sources */,
+				FE4D68022BF0D9BB00504957 /* ManageTeamPlayerCell.swift in Sources */,
 				FEBF06052BDECB8300BA933E /* AuthVC.swift in Sources */,
 				FEBF05C12BDE57D600BA933E /* AppDelegate.swift in Sources */,
 				FE4AE4622BE9786A00E1C211 /* TeamDetailMatchCellView.swift in Sources */,
@@ -559,15 +670,21 @@
 				FE4AE45C2BE977F800E1C211 /* TeamDetailPlayerCellView.swift in Sources */,
 				FE16DEB02BE7B7EA002D16AC /* TeamsCollectionViewCell.swift in Sources */,
 				FEBF060A2BDED1CE00BA933E /* CGColor+Extensions.swift in Sources */,
+				FE5CAFDE2BEEA57600646F66 /* TeamMatchsListVC.swift in Sources */,
+				FE5CAFEC2BEFFB3B00646F66 /* TeamMatchDetailVC.swift in Sources */,
 				FEE8E8632BE3A4C1007C31CA /* OtpVC.swift in Sources */,
+				FE5CAFE82BEFD16100646F66 /* MKMagneticProgress.swift in Sources */,
 				FEBF06012BDE78D800BA933E /* UIViewController+Extensions.swift in Sources */,
 				FE4AE4562BE93A5500E1C211 /* TeamDetailVC.swift in Sources */,
+				FE5CAFE32BEF853E00646F66 /* TeamPlayerDetailVC.swift in Sources */,
 				FEBF06082BDECBD300BA933E /* UIColor+Extensions.swift in Sources */,
 				FEBF06122BDEEEFB00BA933E /* CALayer+Extensions.swift in Sources */,
+				FE3793CB2BEBEE37002B7C18 /* TeamPlayerListVC.swift in Sources */,
 				FE16DE902BE3F2E3002D16AC /* UIStackView+Extensions.swift in Sources */,
 				FEBF060E2BDEE3DF00BA933E /* UIView+Layer.swift in Sources */,
 				FE16DEA02BE56432002D16AC /* TabBarVC.swift in Sources */,
 				FE16DEAB2BE779A7002D16AC /* HomeVC.swift in Sources */,
+				FE4D67FE2BF0D67C00504957 /* ManageTeamVC.swift in Sources */,
 				FEBF05F72BDE75E500BA933E /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

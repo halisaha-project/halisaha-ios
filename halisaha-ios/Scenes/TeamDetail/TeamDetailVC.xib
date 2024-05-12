@@ -129,6 +129,9 @@
                                                     <state key="normal" title="All Player">
                                                         <color key="titleColor" name="primaryBlue"/>
                                                     </state>
+                                                    <connections>
+                                                        <action selector="didTapAllPlayersButton:" destination="-1" eventType="touchUpInside" id="hqC-zM-8zi"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                         </stackView>
@@ -221,6 +224,9 @@
                                                     <real key="value" value="18"/>
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="didTapManageTeamButton:" destination="-1" eventType="touchUpInside" id="WVx-qj-z5G"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                 </stackView>

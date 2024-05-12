@@ -120,7 +120,7 @@
                 <constraint firstItem="Yix-Pz-sxd" firstAttribute="top" relation="greaterThanOrEqual" secondItem="oUa-zE-XDV" secondAttribute="top" constant="12" id="YN5-pu-Cvf"/>
                 <constraint firstItem="Yix-Pz-sxd" firstAttribute="leading" secondItem="oUa-zE-XDV" secondAttribute="leading" constant="12" id="ZqE-Wp-yU8"/>
                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Yix-Pz-sxd" secondAttribute="bottom" constant="12" id="dkL-hL-QAL"/>
-                <constraint firstItem="WCL-a3-Xgd" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Tk5-Hg-Z05" secondAttribute="trailing" constant="24" id="e8V-WB-1TY"/>
+                <constraint firstItem="WCL-a3-Xgd" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Tk5-Hg-Z05" secondAttribute="trailing" id="e8V-WB-1TY"/>
                 <constraint firstAttribute="trailing" secondItem="y5X-Nk-bQF" secondAttribute="trailing" id="jm6-hl-8R2"/>
                 <constraint firstItem="WCL-a3-Xgd" firstAttribute="centerY" secondItem="oUa-zE-XDV" secondAttribute="centerY" id="vfC-Yx-JdX"/>
                 <constraint firstItem="Tk5-Hg-Z05" firstAttribute="leading" secondItem="Yix-Pz-sxd" secondAttribute="trailing" constant="12" id="vor-Wa-zik"/>

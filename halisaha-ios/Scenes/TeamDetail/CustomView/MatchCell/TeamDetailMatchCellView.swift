@@ -32,6 +32,7 @@ class TeamDetailMatchCellView: UIView {
     
     @objc
     private func didTapSelf() {
-        
+        let vc = TeamMatchDetailVC.instanceFromNib()
+        appNavigationController.pushViewController(vc, animated: true)
     }
 }

@@ -20,7 +20,16 @@ class TeamDetailVC: UIViewController {
         updatePlayer()
     }
     @IBAction func didTapAllMatchsButton(_ sender: Any) {
-        
+        let vc = TeamMatchsListVC.instanceFromNib()
+        appNavigationController.pushViewController(vc, animated: true)
+    }
+    @IBAction func didTapAllPlayersButton(_ sender: Any) {
+        let vc = TeamPlayerListVC.instanceFromNib()
+        appNavigationController.pushViewController(vc, animated: true)
+    }
+    @IBAction func didTapManageTeamButton(_ sender: Any) {
+        let vc = ManageTeamVC.instanceFromNib()
+        appNavigationController.pushViewController(vc, animated: true)
     }
 }
 
